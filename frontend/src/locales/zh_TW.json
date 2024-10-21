@@ -1,0 +1,248 @@
+{
+  "title": "Haife Salon",
+  "loading": "載入中...",
+  "menu": {
+    "home": "首頁",
+    "admin": "系統管理",
+    "user": "使用者管理",
+    "role": "角色管理",
+    "page": "頁面管理",
+    "activity": "抽獎活動"
+  },
+  "user_manage": {
+    "id": "ID",
+    "title": "使用者管理",
+    "role": "角色",
+    "realName": "姓名",
+    "nickName": "暱稱",
+    "account": "帳號",
+    "password": "密碼",
+    "isEnabled": "是否啟用"
+  },
+  "role_manage": {
+    "id": "ID",
+    "title": "角色管理",
+    "name": "角色名稱",
+    "isEnabled": "是否啟用",
+    "pageGrant": "頁面權限"
+  },
+  "page_manage": {
+    "title": "頁面管理",
+    "id": "ID",
+    "name": "名稱",
+    "displayName": "顯示名稱",
+    "path": "路徑",
+    "parentId": "父頁面 ID",
+    "sort": "排序",
+    "icon": "圖標",
+    "noParent": "無父頁面"
+  },
+  "activity_manage": {
+    "title": "抽獎活動",
+    "winners": "中獎名單",
+    "codes": "序號管理",
+    "prizes": "獎項管理",
+    "enter": "進入活動",
+    "close": "活動結束",
+    "start": "活動進行中",
+    "yetStart": "活動尚未開始",
+    "name": "活動名稱"
+  },
+  "winner_manage": {
+    "id": "ID",
+    "name": "姓名",
+    "phone": "電話",
+    "isExchange": "是否兌換",
+    "code": "序號",
+    "prize": "獎項",
+    "exchange": "兌換",
+    "exchange_reason": "兌換原因",
+    "expiryDate": "兌換期限",
+    "changeExpiryDate": "修改期限"
+  },
+  "codes_manage": {
+    "code": "序號",
+    "generate": "產生序號"
+  },
+  "prizes_manage": {
+    "name": "名稱",
+    "price": "金額",
+    "time": "次數",
+    "quantity": "數量",
+    "remainingQty": "剩餘數量",
+    "isEnabled": "是否啟用"
+  },
+  "btn": {
+    "cancel": "取消",
+    "close": "關閉",
+    "create": "新增",
+    "update": "修改",
+    "delete": "刪除",
+    "refresh": "刷新",
+    "enabled": "啟用",
+    "disabled": "未啟用",
+    "exchange": "已兌換",
+    "noExchange": "未兌換"
+  },
+  "table": {
+    "search": "查詢",
+    "total": "共 {num} 筆資料",
+    "no_data": "查無資料"
+  },
+  "modal": {
+    "edit": "修改",
+    "create": "新增"
+  },
+  "alert": {
+    "error": "糟糕...",
+    "ok": "確定",
+    "cancel": "取消",
+    "success": "成功",
+    "close": "關閉",
+    "send_error": "資料傳送失敗",
+    "blank_error": "欄位填寫請勿空白",
+    "delete_tip": "確定是否要刪除該筆資料？",
+    "create_success": "資料新增成功",
+    "update_success": "資料修改成功",
+    "delete_success": "資料刪除成功",
+    "orientation": "請保持裝置直向"
+  },
+  "login": {
+    "title": "後台登入",
+    "account": "帳號",
+    "password": "密碼",
+    "button": "登入",
+    "auth_error": "帳號或密碼有誤"
+  },
+  "nav_dropdown": {
+    "settings": "設定",
+    "logout": "登出"
+  },
+  "error_page": {
+    "title": "頁面不存在",
+    "detail": "您正在查找的頁面可能已被刪除、更改了名稱或暫時不可用。"
+  },
+  "vuestic": {
+    "search": "搜尋",
+    "noOptions": "未找到項目",
+    "ok": "確定",
+    "cancel": "取消",
+    "uploadFile": "上傳文件",
+    "undo": "撤銷",
+    "dropzone": "拖放文件到此處上傳",
+    "fileDeleted": "文件已刪除",
+    "closeAlert": "關閉警報",
+    "backToTop": "回到頂部",
+    "toggleDropdown": "切換下拉選單",
+    "carousel": "輪播",
+    "goPreviousSlide": "前往上一張幻燈片",
+    "goNextSlide": "前往下一張幻燈片",
+    "goSlide": "前往第 {index} 張幻燈片",
+    "slideOf": "第 {index} 張，共 {length} 張",
+    "close": "關閉",
+    "openColorPicker": "打開顏色選擇器",
+    "colorSelection": "顏色選擇",
+    "colorName": "顏色 {color}",
+    "decreaseCounter": "減少計數",
+    "increaseCounter": "增加計數",
+    "selectAllRows": "選擇所有行",
+    "sortColumnBy": "按 {name} 排序列",
+    "selectRowByIndex": "選擇第 {index} 行",
+    "resetDate": "重置日期",
+    "nextPeriod": "下一時段",
+    "switchView": "切換視圖",
+    "previousPeriod": "上一時段",
+    "removeFile": "移除文件",
+    "reset": "重置",
+    "pagination": "分頁",
+    "goToTheFirstPage": "前往首頁",
+    "goToPreviousPage": "前往上一頁",
+    "goToSpecificPage": "前往第 {page} 頁",
+    "goToSpecificPageInput": "輸入頁碼前往",
+    "goNextPage": "前往下一頁",
+    "goLastPage": "前往最後一頁",
+    "currentRating": "當前評分 {value} / {max}",
+    "voteRating": "投票評分 {value} / {max}",
+    "optionsFilter": "選項過濾",
+    "splitPanels": "拆分面板",
+    "movePaginationLeft": "向左移動分頁",
+    "movePaginationRight": "向右移動分頁",
+    "resetTime": "重置時間",
+    "closeToast": "關閉通知",
+    "selectedOption": "已選擇的選項",
+    "noSelectedOption": "未選擇選項",
+    "breadcrumbs": "麵包屑",
+    "counterValue": "計數器值",
+    "selectedDate": "選擇的日期",
+    "selectedTime": "選擇的時間",
+    "progressState": "進度狀態",
+    "color": "顏色",
+    "next": "下一步",
+    "back": "上一步",
+    "finish": "完成",
+    "step": "步驟",
+    "progress": "進度",
+    "loading": "加載中",
+    "sliderValue": "當前滑桿值為 {value}",
+    "switch": "切換",
+    "inputField": "輸入欄位",
+    "fileTypeIncorrect": "文件類型不正確",
+    "select": "選擇一個選項"
+  },
+  "drawPage": {
+    "buttonText": "開始"
+  },
+  "userInput": {
+    "name": "真實姓名",
+    "namePlaceholder": "請輸入您的真實姓名",
+    "phone": "電話",
+    "phonePlaceholder": "請輸入您的聯絡電話",
+    "startDraw": "開始抽獎",
+    "agreement": "開始抽獎即表示同意活動辦法，並同意主辦單位蒐集、處理及利用於本活動提供之個人資料，作為本次活動抽獎使用。"
+  },
+  "confirmBox": {
+    "title": "資料確認",
+    "name": "姓名：",
+    "phone": "電話：",
+    "confirmButtonText": "送出",
+    "cancelButtonText": "取消",
+    "notice": "請務必確認您的資訊無誤，以免影響抽獎權益"
+  },
+  "congratulationBox": {
+    "title": "～恭喜您～",
+    "text": "獲得 ",
+    "confirmButtonText": "前往獎品票券頁面"
+  },
+  "prizePage": {
+    "alreadExchange": "已兌換",
+    "expiryDate": "使用期限：",
+    "directions": "該票券已兌換使用完畢"
+  },
+  "checkPage": {
+    "unqualified": "檢驗不合格",
+    "expired": "過期兌換",
+    "hasExchange": "獎品已兌換",
+    "qualified": "檢驗合格",
+    "notDraw": "目前尚未參與抽獎",
+    "get": "抽中 ",
+    "exchange": "兌換",
+    "expiryDate": "使用期限："
+  },
+  "checkCodeBox": {
+    "title": "請輸入確認碼",
+    "confirmButtonText": "確定兌換",
+    "errorText": "確認碼錯誤",
+    "successExchange": "已兌換完成",
+    "notice": "請勿自行輸入驗證碼，以免影響兌換獎項權益"
+  },
+  "dashboard": {
+    "drawStatistics": "抽獎統計",
+    "numOfExchanges": "目前已兌換總數量",
+    "numOfWinners": "目前已抽出活動獎項數量",
+    "numOfPrizes": "活動總獎項數量",
+    "exchange": "已兌換",
+    "winners": "已抽出",
+    "quantity": "獎項數量",
+    "activity": "活動"
+  }
+}

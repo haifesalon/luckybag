@@ -1,0 +1,248 @@
+{
+  "title": "Haife Salon",
+  "loading": "Loading...",
+  "menu": {
+    "home": "Home",
+    "admin": "Admin Manage",
+    "user": "User Manage",
+    "role": "Role Manage",
+    "page": "Page Manage",
+    "activity": "Activity"
+  },
+  "user_manage": {
+    "id": "ID",
+    "title": "User Manage",
+    "role": "Role",
+    "realName": "Real Name",
+    "nickName": "Nick Name",
+    "account": "Account",
+    "password": "Password",
+    "isEnabled": "Is Enabled"
+  },
+  "role_manage": {
+    "id": "ID",
+    "title": "Role Manage",
+    "name": "Role Name",
+    "isEnabled": "Is Enabled",
+    "pageGrant": "Grant"
+  },
+  "page_manage": {
+    "title": "Page Manage",
+    "id": "ID",
+    "name": "Name",
+    "displayName": "Display Name",
+    "path": "Path",
+    "parentId": "Parent ID",
+    "sort": "Sort",
+    "icon": "Icon",
+    "noParent": "No Parent"
+  },
+  "activity_manage": {
+    "title": "Activity Manage",
+    "winners": "Winners",
+    "codes": "Codes Manage",
+    "prizes": "Prizes Manage",
+    "enter": "Go Activity",
+    "close": "Activity End",
+    "start": "In Progress",
+    "yetStart": "Not Start",
+    "name": "Activity Name"
+  },
+  "winner_manage": {
+    "id": "ID",
+    "name": "Name",
+    "phone": "Phone",
+    "isExchange": "Is Exchange",
+    "code": "Code",
+    "prize": "Prize",
+    "exchange": "Exchange",
+    "exchange_reason": "Exchange Reason",
+    "expiryDate": "Expiry Date",
+    "changeExpiryDate": "Change Expiry Date"
+  },
+  "codes_manage": {
+    "code": "Code",
+    "generate": "Generate Code"
+  },
+  "prizes_manage": {
+    "name": "Name",
+    "price": "Price",
+    "time": "Time",
+    "quantity": "Quantity",
+    "remainingQty": "Remaining Quantity",
+    "isEnabled": "Is Enabled"
+  },
+  "btn": {
+    "cancel": "Cancel",
+    "close": "Close",
+    "create": "Create",
+    "update": "Update",
+    "delete": "Delete",
+    "refresh": "Refresh",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "exchange": "Exchanged",
+    "noExchange": "Not Exchanged"
+  },
+  "table": {
+    "search": "Search",
+    "total": "Total: {num} items",
+    "no_data": "No Items"
+  },
+  "modal": {
+    "edit": "Edit",
+    "create": "Create"
+  },
+  "alert": {
+    "error": "Oops...",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "success": "Success",
+    "close": "Close",
+    "send_error": "Send Data Error",
+    "blank_error": "Field Should Not Be Blank",
+    "delete_tip": "Are you sure you want to delete this data ?",
+    "create_success": "Create Success",
+    "update_success": "Update Success",
+    "delete_success": "Delete Success",
+    "orientation": "Please keep the device in portrait mode"
+  },
+  "login": {
+    "title": "Log in",
+    "account": "ACCOUNT",
+    "password": "PASSWORD",
+    "button": "Login",
+    "auth_error": "Account or Password Failed"
+  },
+  "nav_dropdown": {
+    "settings": "Settings",
+    "logout": "Log Out"
+  },
+  "error_page": {
+    "title": "Page not found",
+    "detail": "The page you are looking for might have been removed had its name changed or is temporarily unavailable."
+  },
+  "vuestic": {
+    "search": "Search",
+    "noOptions": "Items not found",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "uploadFile": "Upload file",
+    "undo": "Undo",
+    "dropzone": "Drop files here to upload",
+    "fileDeleted": "File deleted",
+    "closeAlert": "close alert",
+    "backToTop": "back to top",
+    "toggleDropdown": "toggle dropdown",
+    "carousel": "carousel",
+    "goPreviousSlide": "go previous slide",
+    "goNextSlide": "go next slide",
+    "goSlide": "go slide {index}",
+    "slideOf": "slide {index} of {length}",
+    "close": "close",
+    "openColorPicker": "open color picker",
+    "colorSelection": "color selection",
+    "colorName": "color {color}",
+    "decreaseCounter": "decrease counter",
+    "increaseCounter": "increase counter",
+    "selectAllRows": "select all rows",
+    "sortColumnBy": "sort by column",
+    "selectRowByIndex": "select row {index}",
+    "resetDate": "reset date",
+    "nextPeriod": "next period",
+    "switchView": "switch view",
+    "previousPeriod": "previous period",
+    "removeFile": "remove file",
+    "reset": "reset",
+    "pagination": "pagination",
+    "goToTheFirstPage": "go to the first page",
+    "goToPreviousPage": "go to the previous page",
+    "goToSpecificPage": "go to the {page} page",
+    "goToSpecificPageInput": "enter the page number to go",
+    "goNextPage": "go next page",
+    "goLastPage": "go last page",
+    "currentRating": "current rating {value} of {max}",
+    "voteRating": "vote rating {value} of {max}",
+    "optionsFilter": "options filter",
+    "splitPanels": "split panels",
+    "movePaginationLeft": "move pagination left",
+    "movePaginationRight": "move pagination right",
+    "resetTime": "reset time",
+    "closeToast": "close toast",
+    "selectedOption": "Selected option",
+    "noSelectedOption": "Option is not selected",
+    "breadcrumbs": "breadcrumbs",
+    "counterValue": "counter value",
+    "selectedDate": "selected date",
+    "selectedTime": "selected time",
+    "progressState": "progress state",
+    "color": "color",
+    "next": "Next",
+    "back": "Previous",
+    "finish": "Finish",
+    "step": "step",
+    "progress": "progress",
+    "loading": "Loading",
+    "sliderValue": "Current slider value is {value}",
+    "switch": "Switch",
+    "inputField": "Input field",
+    "fileTypeIncorrect": "File type is incorrect",
+    "select": "Select an option"
+  },
+  "drawPage": {
+    "buttonText": "Start"
+  },
+  "userInput": {
+    "name": "Name",
+    "namePlaceholder": "your real name",
+    "phone": "Phone",
+    "phonePlaceholder": "your contact number",
+    "startDraw": "Start Drawing",
+    "agreement": "By entering, you agree to the terms and consent to collect and use of your personal data for this event."
+  },
+  "confirmBox": {
+    "title": "Data Confirmation",
+    "name": "Name : ",
+    "phone": "Phone : ",
+    "confirmButtonText": "Submit",
+    "cancelButtonText": "Cancel",
+    "notice": "Please ensure your information is accurate, as it may affect your eligibility for the raffle."
+  },
+  "congratulationBox": {
+    "title": "～Congratulations～",
+    "text": "You've won ",
+    "confirmButtonText": "Go to Prize"
+  },
+  "prizePage": {
+    "alreadExchange": "Used",
+    "expiryDate": "Expiry :",
+    "directions": "Ticket has been used"
+  },
+  "checkPage": {
+    "unqualified": "Not Qualified",
+    "expired": "Expired Exchange",
+    "hasExchange": "Prize Already Exchange",
+    "qualified": "Qualified",
+    "notDraw": "Not draw yet",
+    "get": "Won ",
+    "exchange": "Exchange",
+    "expiryDate": "Expiry :"
+  },
+  "checkCodeBox": {
+    "title": "Enter Confirmation Code",
+    "confirmButtonText": "Confirm Exchange",
+    "errorText": "Incorrect Code",
+    "successExchange": "Exchange Completed",
+    "notice": "Do not enter the verification code manually, or you won't be able to redeem the prize."
+  },
+  "dashboard": {
+    "drawStatistics": "Draw Statistics",
+    "numOfExchanges": "Number of Exchanges Already Completed",
+    "numOfWinners": "Number of Prizes Already Drawn",
+    "numOfPrizes": "Total Number of Prizes for the Event",
+    "exchange": "Exchange",
+    "winners": "Prizes Drawn",
+    "quantity": "Total Number of Prizes",
+    "activity": "Activity"
+  }
+}

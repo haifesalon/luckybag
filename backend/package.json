@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && node --watch app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "prettier": "^3.2.5",
+    "sequelize": "^6.37.1",
+    "sequelize-auto": "^0.8.8",
+    "tedious": "^18.1.0"
+  }
+}
